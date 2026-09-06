@@ -1,4 +1,10 @@
-# Бинарные файлы (скомпилированные программы)
+# Отсекать папки сборки C# во ВСЕХ подпапках
+**/bin/
+**/obj/
+**/.vs/
+*.user
+
+# Отсекать скомпилированные файлы Go во ВСЕХ подпапках
 *.exe
 *.exe~
 *.dll
@@ -7,37 +13,9 @@
 *.test
 *.out
 
-# Исполняемый файл по умолчанию для компиляции go build
-main
-
-# Архивы и сборки
-*.tar.gz
-*.zip
-
-# Переменные окружения и секретные ключи
-.env
-.env.local
-*.pem
-
-# Файлы IDE и редакторов кода
-# VS Code
-.vscode/
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
-
-# GoLand / IntelliJ IDEA
-.idea/
-*.iws
-*.iml
-*.ipr
-
-# Системные файлы
+# IDE и системные файлы
 .DS_Store
 Thumbs.db
-bin/
-obj/
-.vs/
-*.user
+.idea/
+.vscode/
+!.vscode/settings.json

@@ -1,0 +1,43 @@
+# Бинарные файлы (скомпилированные программы)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Исполняемый файл по умолчанию для компиляции go build
+main
+
+# Архивы и сборки
+*.tar.gz
+*.zip
+
+# Переменные окружения и секретные ключи
+.env
+.env.local
+*.pem
+
+# Файлы IDE и редакторов кода
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# GoLand / IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+bin/
+obj/
+.vs/
+*.user
